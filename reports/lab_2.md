@@ -22,7 +22,11 @@
 
 ![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/lab2_wth_dropout.png?raw=true)
 
-### 3. Результаты экспериментов.
+### 3. Предобработка данных.
+
+Было произведено изменение размерности данных с [96, 96, 3] к [32, 32, 3].
+
+### 4. Результаты экспериментов.
 
 
 |   |  TRAIN WITH THE SAME LAYERS | TRAIN WITH DROPOUT | TRAIN WITHOUT DROPOUT | VALID WITH THE SAME LAYERS | VALID WITH DROPOUT | VALID WITHOUT DROPOUT | TEST WITH THE SAME LAYERS | TEST WITH DROPOUT | TEST WITHOUT DROPOUT |
