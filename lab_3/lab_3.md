@@ -9,23 +9,23 @@
 Реализация в скриптах:
 
  *pcam_cnn_maxpooling.ipynb*
- 
- 
+
+
  *pcam_cnn_averagepooling.ipynb*
+
  
- 
- 
+
 ### 2. Тестовые конфигурации сетей.
 
 - Max pooling
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/cnn_maxpooling.png?raw=true)
+![](../images/cnn_maxpooling.png)
 
 
 - Average pooling
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/cnn_averagepooling.png?raw=true)
+![](../images/cnn_averagepooling.png)
 
 
 ### 3. Результаты экспериментов.
@@ -33,7 +33,7 @@
 - Max pooling
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/cnn_result_maxpooling.png?raw=true)
+![](../images/cnn_result_maxpooling.png)
 
 
 |   |  TRAIN  | VALID   | TEST   |
@@ -49,7 +49,7 @@
 - Average pooling
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/cnn_result_averagepooling.png?raw=true)
+![](../images/cnn_result_averagepooling.png)
 
 
 |   |  TRAIN  | VALID   | TEST   |
