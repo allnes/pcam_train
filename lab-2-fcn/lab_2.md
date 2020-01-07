@@ -11,20 +11,20 @@
 ### 2. Тестовые конфигурации сетей.
 - With the same layers
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_1.PNG?raw=true)
+![](../images/fcnn_1.PNG)
 
 - With dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_2.PNG?raw=true)
+![](../images/fcnn_2.PNG)
 
 - Without dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_3.PNG?raw=true)
+![](../images/fcnn_3.PNG)
 
 ### 3. Результаты экспериментов.
 - With the same layers
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_1.PNG?raw=true)
+![](../images/fcnn_result_1.PNG)
 
 |   |  TRAIN  | VALID   | TEST   |
 | ------------ | ------------ | ------------ | ------------ |
@@ -37,7 +37,7 @@
 
 - With dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_2.PNG?raw=true)
+![](../images/fcnn_result_2.PNG)
 
 |   |  TRAIN  | VALID   | TEST   |
 | ------------ | ------------ | ------------ | ------------ |
@@ -50,7 +50,7 @@
 - Without dropout
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_3.png?raw=true)
+![](../images/fcnn_result_3.png)
 
 
 |   |  TRAIN  | VALID   | TEST   |

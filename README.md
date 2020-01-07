@@ -21,20 +21,20 @@
 
 #### На скрытых слоях
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/ReLU.PNG?raw=true)
+![](./images/ReLU.PNG)
 
 
 #### На выходном слое
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/sigmoid.png?raw=true)
+![](./images/sigmoid.png)
 
 
-### Функция ошибки 
+### Функция ошибки
 
 Бинарная кросс-энтропия
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/loss.png?raw=true)
+![](./images/loss.png)
 
 ### Обучение на тренировочной выборке
 Сеть обучаем определенное количество эпох, то есть полностью проходим по тестовой выборке и делим данные на пакеты.
@@ -53,7 +53,7 @@
 В работе используются данные из https://github.com/basveeling/pcam, полученные из гистологических сканирований срезов лимфатических узлов. Каждое изображение помечено бинарной меткой, которая показывает наличие метастатической ткани. Зеленые прямоугольники в центральной области указывают на опухолевую ткань , что является положительной меткой.
 > Пример изображений.
 
-![](https://github.com/basveeling/pcam/blob/master/pcam.jpg?raw=true)
+![](https://github.com/basveeling/pcam/blob/master/pcam.jpg)
 
 
 
@@ -71,7 +71,7 @@ w \* h \* c  = 96 \* 96 \* 3.
 
 
 ## 3. Метрика качества решения задачи.
- 
+
 Y - оригинал
 U - наш классификатор
 
@@ -84,20 +84,20 @@ U - наш классификатор
 
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/metric_accuracy.png?raw=true) - точность классификатора, где
+![](./images/metric_accuracy.png) - точность классификатора, где
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/metric_N.png?raw=true) 
+![](./images/metric_N.png)
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/metric_precision.png?raw=true)  - качество классификатора
+![](./images/metric_precision.png)  - качество классификатора
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/metric_recall.png?raw=true)  - полнота классификатора
+![](./images/metric_recall.png)  - полнота классификатора
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/metric_f1_score.png?raw=true) 
-
-
+![](./images/metric_f1_score.png)
 
 
-## 4. Исходный формат хранения данных. 
+
+
+## 4. Исходный формат хранения данных.
 Модель хранения данных: `HDF5 Matrix`
 
 Список используемых файлов в данном формате:
