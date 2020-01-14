@@ -13,7 +13,9 @@
  
 ### 2. Тестовая конфигурация сети - ResNet20.
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/model_plot_3.png?raw=true)
+
+![](../images/model_plot_3.png)
+
 
 ### 3. Результаты экспериментов.
 
@@ -29,16 +31,16 @@
 | TRAIN TIME | 1h | - | - |
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/pcam_lab_3_part1_model_loss.png?raw=true)
+![](../images/pcam_lab_3_part1_model_loss.png)
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/pcam_lab_3_part1_model_binary_accuracy.png?raw=true)
+![](../images/pcam_lab_3_part1_model_binary_accuracy.png)
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/pcam_lab_3_part1_model_recall.png?raw=true)
+![](../images/pcam_lab_3_part1_model_recall.png)
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/pcam_lab_3_part1_model_precision.png?raw=true)
+![](../images/pcam_lab_3_part1_model_precision.png)
 
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/pcam_lab_3_part1_model_f1_score.png?raw=true)
+![](../images/pcam_lab_3_part1_model_f1_score.png)

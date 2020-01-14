@@ -10,17 +10,24 @@
 Реализация в скрипте *pcam_fcn.ipynb*
 
 ### 2. Тестовые конфигурации сетей.
+
 - With the same layers
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/lab2.png?raw=true)
+
+![](../images/lab2.png)
+
 
 - With dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/lab2_dropout.png?raw=true)
+
+![](../images/lab2_dropout.png)
+
 
 - Without dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/lab2_wth_dropout.png?raw=true)
+
+![](../images/lab2_wth_dropout.png)
+
 
 ### 3. Предобработка данных.
 
@@ -36,20 +43,23 @@
 | RECALL | 73.5115  | 90.2137 | 72.2137 | 68.6724  | 86.51 | 65.1353 | 65.482  | 83.7882 | 61.8916 |
 |  F1-SCORE | 75.5472  | 74.1303 | 74.5975 |  73.3746 | 73.1358 | 70.785 | 70.7574  | 71.8975 | 67.856 |
 | INFERENCE TIME |  25sec | 24sec | 23sec | 3sec | 3sec | 3sec |  3sec | 3sec | 3sec |
-| TRAIN TIME | 22min | - | - | 22min | - | - | 22min | - | - |
+| TRAIN TIME | 22min | 22min | 22min | - | - | - | - | - | - |
 
 
 
 - With the same layers
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_1.PNG?raw=true)
+
+![](../images/fcnn_result_1.PNG)
 
 
 - With dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_2.PNG?raw=true)
+
+![](../images/fcnn_result_2.PNG)
 
 
 - Without dropout
 
-![](https://github.com/NovozhilovaA/pcam_train/blob/master/images/fcnn_result_3.png?raw=true)
+
+![](../images/fcnn_result_3.png)
